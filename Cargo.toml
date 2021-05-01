@@ -14,6 +14,7 @@ default = []
 web = []
 
 [dependencies]
-epi = "0.11"
+egui = { git = "https://github.com/emilk/egui" }
+epi = { git = "https://github.com/emilk/egui" }
 wgpu = "0.8"
 bytemuck = "1.5"
